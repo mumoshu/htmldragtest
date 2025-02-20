@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Draggable Dashboard</h1>
+        <button id="saveButton" class="save-button">Save Configuration</button>
+        
+        <div class="dashboard" id="dashboard">
+            <div class="widget" draggable="true" data-widget-id="1">
+                <div class="widget-header">Analytics</div>
+                <div class="widget-content">
+                    <p>Analytics content here</p>
+                </div>
+            </div>
+            
+            <div class="widget" draggable="true" data-widget-id="2">
+                <div class="widget-header">Tasks</div>
+                <div class="widget-content">
+                    <p>Task list content here</p>
+                </div>
+            </div>
+            
+            <div class="widget" draggable="true" data-widget-id="3">
+                <div class="widget-header">Calendar</div>
+                <div class="widget-content">
+                    <p>Calendar content here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html> 
